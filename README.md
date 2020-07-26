@@ -4,4 +4,4 @@ A system that people can ask and answer questions with some additional functions
 
 ## run the project
 download QT 
-open AnA.pro 
+open AnA/AnA.pro 
