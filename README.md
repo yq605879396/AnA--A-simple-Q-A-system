@@ -1,7 +1,7 @@
 # AnA--A-simple-Q-A-system
 A system that people can ask and answer questions with some additional functions and lovely visualization.  Developed with Qt and program in C++. 
 
-### functions
+### Features
 1. As a user, we can sign up an account and login into the system
 2. We can post questions and answer other's posted quesitons
 3. We can search the questions according to date/ text with fuzzy search
