@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>218</width>
-    <height>292</height>
+    <width>420</width>
+    <height>482</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,11 +22,14 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>20</y>
-     <width>121</width>
+     <x>60</x>
+     <y>40</y>
+     <width>131</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>You have noticed</string>
@@ -35,24 +38,30 @@
   <widget class="QLabel" name="NoticeNum">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>220</x>
      <y>40</y>
-     <width>21</width>
+     <width>81</width>
      <height>21</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 16pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>3</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>60</y>
-     <width>59</width>
-     <height>20</height>
+     <x>260</x>
+     <y>40</y>
+     <width>111</width>
+     <height>21</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>questions</string>
@@ -63,8 +72,8 @@
     <rect>
      <x>30</x>
      <y>90</y>
-     <width>151</width>
-     <height>161</height>
+     <width>361</width>
+     <height>361</height>
     </rect>
    </property>
   </widget>

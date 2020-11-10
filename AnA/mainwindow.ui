@@ -25,9 +25,12 @@
      <rect>
       <x>50</x>
       <y>100</y>
-      <width>115</width>
-      <height>32</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
     </property>
     <property name="text">
      <string>Ask</string>
@@ -38,9 +41,12 @@
      <rect>
       <x>50</x>
       <y>150</y>
-      <width>111</width>
+      <width>121</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
     </property>
     <property name="text">
      <string>My A and Q</string>
@@ -51,12 +57,15 @@
      <rect>
       <x>50</x>
       <y>200</y>
-      <width>115</width>
-      <height>32</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+    </property>
     <property name="text">
-     <string>My Like</string>
+     <string>My Follow</string>
     </property>
    </widget>
    <widget class="QTableWidget" name="tableWidget">
@@ -78,8 +87,11 @@
       <height>32</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
+    </property>
     <property name="text">
-     <string>上一页</string>
+     <string>last page</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
@@ -91,8 +103,11 @@
       <height>32</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
+    </property>
     <property name="text">
-     <string>下一页</string>
+     <string>next page</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -100,9 +115,12 @@
      <rect>
       <x>410</x>
       <y>20</y>
-      <width>61</width>
+      <width>91</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 16pt &quot;Segoe Print&quot;;</string>
     </property>
     <property name="text">
      <string>Questions</string>
@@ -111,7 +129,7 @@
    <widget class="QLineEdit" name="DateText">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>290</x>
       <y>70</y>
       <width>111</width>
       <height>16</height>
@@ -127,6 +145,9 @@
       <height>32</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
+    </property>
     <property name="text">
      <string>refresh</string>
     </property>
@@ -135,10 +156,13 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>20</y>
-      <width>71</width>
-      <height>41</height>
+      <y>10</y>
+      <width>131</width>
+      <height>61</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 16pt &quot;MV Boli&quot;;</string>
     </property>
     <property name="text">
      <string>Welcome!!!!</string>
@@ -149,9 +173,12 @@
      <rect>
       <x>50</x>
       <y>250</y>
-      <width>115</width>
-      <height>32</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
     </property>
     <property name="text">
      <string>My Notice</string>
@@ -166,6 +193,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
+    </property>
     <property name="text">
      <string>TextLabel</string>
     </property>
@@ -178,6 +208,9 @@
       <width>16</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
     </property>
     <property name="text">
      <string>／</string>
@@ -192,6 +225,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
+    </property>
     <property name="text">
      <string>TextLabel</string>
     </property>
@@ -201,9 +237,12 @@
      <rect>
       <x>50</x>
       <y>300</y>
-      <width>115</width>
-      <height>32</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
     </property>
     <property name="text">
      <string>save</string>
@@ -217,6 +256,9 @@
       <width>81</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
     </property>
     <property name="text">
      <string>search</string>
@@ -235,11 +277,14 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>240</x>
       <y>70</y>
       <width>41</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
     </property>
     <property name="text">
      <string>Date</string>
@@ -248,11 +293,14 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>430</x>
       <y>70</y>
-      <width>31</width>
+      <width>51</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
     </property>
     <property name="text">
      <string>Title</string>

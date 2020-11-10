@@ -28,6 +28,9 @@
      <height>32</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>register</string>
    </property>
@@ -41,6 +44,9 @@
      <height>32</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>refresh</string>
    </property>
@@ -48,11 +54,14 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>80</x>
      <y>60</y>
      <width>59</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>Name</string>
@@ -61,11 +70,14 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>70</x>
      <y>110</y>
      <width>59</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>Password</string>
@@ -74,11 +86,14 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>70</x>
      <y>160</y>
      <width>59</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>Confirm</string>
@@ -88,7 +103,7 @@
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>50</y>
+     <y>60</y>
      <width>113</width>
      <height>21</height>
     </rect>

@@ -6,10 +6,11 @@
 void LoaderAndSaver::LoadUserByFile()
 {
     try{
-        QFile infile("/Users/QiYin/build-AnA-Desktop_Qt_5_8_0_clang_64bit-Debug/user.txt");
+        QFile infile("./user.txt");
         QTextStream in(&infile);
         if(!infile.open(QIODevice::ReadOnly | QIODevice::Text)) {//打开失败
-        throw "File can not be opened.";
+            qDebug() << "Debug Message";
+            throw "File can not be opened.";
         }
         else
         {
@@ -34,7 +35,7 @@ void LoaderAndSaver::LoadUserByFile()
 //从文件中读取问题信息
 void LoaderAndSaver::LoadQuestionByFile()
 {
-    QFile infile("/Users/QiYin/build-AnA-Desktop_Qt_5_8_0_clang_64bit-Debug/question.txt");
+    QFile infile("./question.txt");
     QTextStream in(&infile);
     if(!infile.open(QIODevice::ReadOnly | QIODevice::Text))
     {//打开失败
@@ -60,7 +61,7 @@ void LoaderAndSaver::LoadQuestionByFile()
 //从文件中读取回答信息
 void LoaderAndSaver::LoadAnswerByFile()
 {
-    QFile infile("/Users/QiYin/build-AnA-Desktop_Qt_5_8_0_clang_64bit-Debug/answer.txt");
+    QFile infile("./answer.txt");
     QTextStream in(&infile);
     if(!infile.open(QIODevice::ReadOnly | QIODevice::Text))
     {//打开失败
@@ -83,7 +84,7 @@ void LoaderAndSaver::LoadAnswerByFile()
 //存用户信息到文件中
 void LoaderAndSaver::SaveUserIntoFile(vector<User> v)
 {
-    QFile outfile("/Users/QiYin/build-AnA-Desktop_Qt_5_8_0_clang_64bit-Debug/user.txt");
+    QFile outfile("./user.txt");
     QTextStream out(&outfile);
     if(!outfile.open(QIODevice::WriteOnly | QIODevice::Text)) {//打开失败
         QMessageBox::information(NULL,"Warning","File can not be opened.",QMessageBox::Yes);
@@ -100,7 +101,7 @@ void LoaderAndSaver::SaveUserIntoFile(vector<User> v)
 //存问题信息到文件中
 void LoaderAndSaver::SaveQuestionIntoFile(vector<Question> v)
 {
-    QFile outfile("/Users/QiYin/build-AnA-Desktop_Qt_5_8_0_clang_64bit-Debug/question.txt");
+    QFile outfile("./question.txt");
     QTextStream out(&outfile);
     if(!outfile.open(QIODevice::WriteOnly | QIODevice::Text)) {//打开失败
         QMessageBox::information(NULL,"Warning","File can not be opened.",QMessageBox::Yes);
@@ -117,7 +118,7 @@ void LoaderAndSaver::SaveQuestionIntoFile(vector<Question> v)
 //存回答信息到文件
 void LoaderAndSaver::SaveAnswerIntoFile(vector<Answer> v)
 {
-    QFile outfile("/Users/QiYin/build-AnA-Desktop_Qt_5_8_0_clang_64bit-Debug/answer.txt");
+    QFile outfile("./answer.txt");
     QTextStream out(&outfile);
     if(!outfile.open(QIODevice::WriteOnly | QIODevice::Text))
     {//打开失败

@@ -24,9 +24,12 @@
     <rect>
      <x>30</x>
      <y>30</y>
-     <width>71</width>
+     <width>81</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Title</string>
@@ -37,9 +40,12 @@
     <rect>
      <x>30</x>
      <y>80</y>
-     <width>61</width>
+     <width>81</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Content</string>
@@ -74,6 +80,9 @@
      <height>32</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>refresh</string>
    </property>
@@ -87,6 +96,9 @@
      <height>32</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>ok</string>
    </property>
@@ -99,6 +111,9 @@
      <width>115</width>
      <height>32</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>cancel</string>

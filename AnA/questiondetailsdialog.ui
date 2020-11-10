@@ -38,6 +38,9 @@
      <height>32</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>+ like</string>
    </property>
@@ -51,6 +54,9 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
+   </property>
    <property name="text">
     <string>TextLabel</string>
    </property>
@@ -58,11 +64,17 @@
   <widget class="QLabel" name="FoundDate">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>30</x>
      <y>170</y>
-     <width>81</width>
+     <width>111</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;font: 10pt &amp;quot;MV Boli&amp;quot;;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -77,6 +89,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>Title</string>
    </property>
@@ -86,9 +101,12 @@
     <rect>
      <x>160</x>
      <y>110</y>
-     <width>59</width>
+     <width>81</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Content</string>
@@ -99,9 +117,12 @@
     <rect>
      <x>340</x>
      <y>40</y>
-     <width>59</width>
+     <width>81</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Answers</string>
@@ -116,6 +137,9 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>Fresh</string>
    </property>
@@ -128,6 +152,9 @@
      <width>81</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>Followed by:</string>
@@ -142,6 +169,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
+   </property>
    <property name="text">
     <string>people</string>
    </property>
@@ -154,6 +184,9 @@
      <width>16</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -168,6 +201,9 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
+   </property>
    <property name="text">
     <string>Founded Time:</string>
    </property>
@@ -180,6 +216,9 @@
      <width>111</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>Founder ID:</string>
@@ -214,8 +253,11 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
-    <string>Notice  </string>
+    <string>Notice</string>
    </property>
   </widget>
   <widget class="QPushButton" name="AddAnswer">
@@ -226,6 +268,9 @@
      <width>101</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Answer</string>
@@ -240,6 +285,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
+   </property>
    <property name="text">
     <string>Noticed by:</string>
    </property>
@@ -252,6 +300,9 @@
      <width>21</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -266,6 +317,12 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;font: 10pt &amp;quot;MV Boli&amp;quot;;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MV Boli&quot;;</string>
+   </property>
    <property name="text">
     <string>people</string>
    </property>
@@ -278,6 +335,9 @@
      <width>101</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Back</string>

@@ -28,6 +28,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 10pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>Like</string>
    </property>
@@ -40,6 +43,9 @@
      <width>21</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -54,6 +60,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 10pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>People</string>
    </property>
@@ -66,6 +75,9 @@
      <width>41</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 10pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Have</string>
@@ -80,6 +92,9 @@
      <height>16</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
+   </property>
    <property name="text">
     <string>TextLabel</string>
    </property>
@@ -92,6 +107,9 @@
      <width>31</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 10pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>Fans</string>

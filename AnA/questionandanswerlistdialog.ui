@@ -44,9 +44,12 @@
     <rect>
      <x>40</x>
      <y>30</y>
-     <width>71</width>
+     <width>101</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>My Answer</string>
@@ -60,6 +63,9 @@
      <width>101</width>
      <height>21</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;Segoe Print&quot;;</string>
    </property>
    <property name="text">
     <string>My Question</string>

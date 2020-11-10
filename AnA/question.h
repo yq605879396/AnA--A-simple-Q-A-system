@@ -8,7 +8,6 @@ class Question: public BasicInfo
 {friend class AskDialog;
     friend class Searcher;
     friend class Answer;
-    friend class Question;
     friend class LoaderAndSaver;
     friend class User;
 private:

@@ -22,17 +22,18 @@
   <widget class="QPushButton" name="LoginButtion">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>190</y>
-     <width>182</width>
-     <height>31</height>
+     <x>60</x>
+     <y>180</y>
+     <width>151</width>
+     <height>51</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#42195f;&quot;&gt;login&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
    <property name="styleSheet">
-    <string notr="true">border-style:outset;
-font:bold 14px;
-min-width:10em;
-padding:6px;
+    <string notr="true">font: bold 16pt &quot;Segoe Print&quot;;
+border-style:outset;
 </string>
    </property>
    <property name="text">
@@ -55,27 +56,33 @@ padding:6px;
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>63</x>
      <y>150</y>
-     <width>54</width>
+     <width>71</width>
      <height>20</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Segoe Script&quot;;</string>
+   </property>
    <property name="text">
-    <string>密    码</string>
+    <string>Password</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>63</x>
      <y>111</y>
-     <width>54</width>
+     <width>81</width>
      <height>21</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Segoe Script&quot;;</string>
+   </property>
    <property name="text">
-    <string>用 户 名</string>
+    <string>Username</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="PasswordText">
@@ -91,22 +98,26 @@ padding:6px;
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>50</y>
-     <width>231</width>
-     <height>31</height>
+     <x>40</x>
+     <y>30</y>
+     <width>311</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>AcadEref</family>
-     <pointsize>16</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <family>MV Boli</family>
+     <pointsize>28</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 28pt &quot;MV Boli&quot;;</string>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ask &amp;amp; Anwser&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#42195f;&quot;&gt;Ask &amp;amp; Anwser&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="textFormat">
     <enum>Qt::AutoText</enum>
@@ -124,17 +135,19 @@ padding:6px;
   <widget class="QPushButton" name="RegisterButton">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>180</x>
      <y>190</y>
      <width>182</width>
      <height>31</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
    <property name="styleSheet">
-    <string notr="true">border-style:outset;
-font:bold 14px;
-min-width:10em;
-padding:6px;</string>
+    <string notr="true">font: bold 16pt &quot;Segoe Print&quot;;
+border-style:outset;
+</string>
    </property>
    <property name="text">
     <string>register</string>
